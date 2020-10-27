@@ -1,0 +1,281 @@
+Script started on 2020-10-27 17:36:53-0500
+/home/ezhou/.bashrc sourced
+[0;32m[0m[0;32mezhou[0;36m @ [0;36mezhou-X570-UD ~/git/software_lab/tutorial8[0;32m
+[0;32m$[0m[0;32m [0mcoverage report[C[C[Cat test_calc.py [C[C[C[2Poverage report[C[C[Kvim test_calc.py 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;79r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[79;1H"test_calc.py" 35L, 929C[2;1H▽[6n[2;1H  [1;1H]10;?]11;?[1;1H[7m test_calc.py [m[30m[40m                                                                                                                                                                                                                                                                                                                [m[2;1H[93m 30 [m[38;5;81mimport[m unittest
+[93m 29 [m[38;5;81mimport[m calc
+[93m 28 
+ 27 
+ 26 [m[93mclass[m [1m[96mTestCalc[m(unittest.TestCase):
+[93m 25 
+ 24 [m    [93mdef[m [1m[96mtest_add[m(self):
+[93m 23 [m[8Cself.assertEqual(calc.add([95m10[m, [95m5[m), [95m15[m)
+[93m 22 [m[8Cself.assertEqual(calc.add(-[95m1[m, [95m1[m), [95m0[m)
+[93m 21 [m[8Cself.assertEqual(calc.add(-[95m1[m, -[95m1[m), -[95m2[m)
+[93m 20 
+ 19 
+ 18 [m    [93mdef[m [1m[96mtest_subtract[m(self):
+[93m 17 [m[8Cself.assertEqual(calc.subtract([95m10[m, [95m5[m), [95m5[m)
+[93m 16 [m[8Cself.assertEqual(calc.subtract(-[95m1[m, [95m1[m), -[95m2[m)
+[93m 15 [m[8Cself.assertEqual(calc.subtract(-[95m1[m, -[95m1[m), [95m0[m)
+[93m 14 
+ 13 
+ 12 [m    [93mdef[m [1m[96mtest_multiply[m(self):
+[93m 11 [m[8Cself.assertEqual(calc.multiply([95m10[m, [95m5[m), [95m50[m)
+[93m 10 [m[8Cself.assertEqual(calc.multiply(-[95m1[m, [95m1[m), -[95m1[m)
+[93m  9 [m[8Cself.assertEqual(calc.multiply(-[95m1[m, -[95m1[m), [95m1[m)
+[93m  8 
+  7 
+  6 [m    [93mdef[m [1m[96mtest_divide[m(self):
+[93m  5 [m[8Cself.assertEqual(calc.divide([95m10[m, [95m5[m), [95m2[m)
+[93m  4 [m[8Cself.assertEqual(calc.divide(-[95m1[m, [95m1[m), -[95m1[m)
+[93m  3 [m[8Cself.assertEqual(calc.divide(-[95m1[m, -[95m1[m), [95m1[m)
+[93m  2 [m[8Cself.assertEqual(calc.divide([95m5[m, [95m2[m), [95m2.5[m)
+[93m  1 
+31  [m[8C[96m# self.assertRaises(ValueError, calc.divide, 10, 0)[m
+[93m  1 
+  2 
+  3 [m[93mif[m __name__ == [95m'__main__'[m:
+[93m  4 [m    unittest.main()
+[94m~                                                                                                                                                                                                                                                                                                                             [38;1H~                                                                                                                                                                                                                                                                                                                             [39;1H~                                                                                                                                                                                                                                                                                                                             [40;1H~                                                                                                                                                                                                                                                                                                                             [41;1H~                                                                                                                                                                                                                                                                                                                             [42;1H~                                                                                                                                                                                                                                                                                                                             [43;1H~                                                                                                                                                                                                                                                                                                                             [44;1H~                                                                                                                                                                                                                                                                                                                             [45;1H~                                                                                                                                                                                                                                                                                                                             [46;1H~                                                                                                                                                                                                                                                                                                                             [47;1H~                                                                                                                                                                                                                                                                                                                             [48;1H~                                                                                                                                                                                                                                                                                                                             [49;1H~                                                                                                                                                                                                                                                                                                                             [50;1H~                                                                                                                                                                                                                                                                                                                             [51;1H~                                                                                                                                                                                                                                                                                                                             [52;1H~                                                                                                                                                                                                                                                                                                                             [53;1H~                                                                                                                                                                                                                                                                                                                             [54;1H~                                                                                                                                                                                                                                                                                                                             [55;1H~                                                                                                                                                                                                                                                                                                                             [56;1H~                                                                                                                                                                                                                                                                                                                             [57;1H~                                                                                                                                                                                                                                                                                                                             [58;1H~                                                                                                                                                                                                                                                                                                                             [59;1H~                                                                                                                                                                                                                                                                                                                             [60;1H~                                                                                                                                                                                                                                                                                                                             [61;1H~                                                                                                                                                                                                                                                                                                                             [62;1H~                                                                                                                                                                                                                                                                                                                             [63;1H~                                                                                                                                                                                                                                                                                                                             [64;1H~                                                                                                                                                                                                                                                                                                                             [65;1H~                                                                                                                                                                                                                                                                                                                             [66;1H~                                                                                                                                                                                                                                                                                                                             [67;1H~                                                                                                                                                                                                                                                                                                                             [68;1H~                                                                                                                                                                                                                                                                                                                             [69;1H~                                                                                                                                                                                                                                                                                                                             [70;1H~                                                                                                                                                                                                                                                                                                                             [71;1H~                                                                                                                                                                                                                                                                                                                             [72;1H~                                                                                                                                                                                                                                                                                                                             [73;1H~                                                                                                                                                                                                                                                                                                                             [74;1H~                                                                                                                                                                                                                                                                                                                             [75;1H~                                                                                                                                                                                                                                                                                                                             [76;1H~                                                                                                                                                                                                                                                                                                                             [77;1H~                                                                                                                                                                                                                                                                                                                             [78;1H~                                                                                                                                                                                                                                                                                                                             [m[79;301H31,9[10CAll]2;test_calc.py (~/git/software_lab/tutorial8) - VIM[32;13H[?25h[?25l[79;291Hj[32;13H[79;291H [33;5H[2;3H[93m1
+ 30
+ 29
+ 28
+ 27
+ 26
+ 25
+ 24
+ 23
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+32 
+  1
+  2
+  3[m[79;302H2,0-1[33;5H[?25h[?25l[79;291Hj[33;5H[79;291H [34;5H[2;3H[93m2
+ 31
+ 30
+ 29
+ 28
+ 27
+ 26
+ 25
+ 24
+ 23
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+33 
+  1
+  2[m[79;302H3[34;5H[?25h[?25l[79;291Hk[34;5H[79;291H [33;5H[2;3H[93m1
+ 30
+ 29
+ 28
+ 27
+ 26
+ 25
+ 24
+ 23
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+32 
+  1
+  2
+  3[m[79;302H2[33;5H[?25h[?25l[79;291Hk[33;5H[79;291H [32;13H[2;3H[93m0
+ 29
+ 28
+ 27
+ 26
+ 25
+ 24
+ 23
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+31 
+  1
+  2
+  3
+  4[m[79;302H1,9  [32;13H[?25h[?25l[79;291Hx[32;13H[79;291H [32;13H[79;291Hdl[32;13H[79;291H  [32;13H[1;2H[7m+ test_calc.py [m[32;13H self.assertRaises([38;5;121mValueError[m, calc.divide, [95m10[m, [95m0[m)[32;63H[K]2;test_calc.py + (~/git/software_lab/tutorial8) - VIM[32;13H[?25h[?25l[79;291Hx[32;13H[79;291H [32;13H[79;291Hdl[32;13H[79;291H  [32;13Hself.assertRaises([38;5;121mValueError[m, calc.divide, [95m10[m, [95m0[m)[32;62H[K[32;13H[?25h[?25l[79;291H^[[32;13H[?25h[?25l[79;291H  [32;13H[?25h[?25l[79;291H:[32;13H[79;1H[K[79;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"test_calc.py" 35L, 927C written
+[97m[41mError detected while processing BufWritePost Auto commands for "*":[m
+[97m[41mE117: Unknown function: convenient#TrimWhitespace]2;Thanks for flying Vim
+[m[?2004l[?1l>[?25h[?1049l[23;0;0t[0;32m[0m[0;32mezhou[0;36m @ [0;36mezhou-X570-UD ~/git/software_lab/tutorial8[0;32m
+[0;32m$[0m[0;32m [0mvim test_calc.py [C[C[2Pcoverage report[C[Cvim test_calc.py [C[C[Kvim test_calc.py [C[C[2Pcoverage report[C[C[Cat test_calc.py [C[C[C[2Poverage report
+Name                                                                               Stmts   Miss  Cover
+------------------------------------------------------------------------------------------------------
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/__init__.py                     5      2    60%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_argcomplete.py                37     23    38%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_code/__init__.py              10      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_code/code.py                 684    440    36%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_code/source.py               140     90    36%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_io/__init__.py                 3      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_io/saferepr.py                67     49    27%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_io/terminalwriter.py         112     37    67%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_io/wcwidth.py                 25     11    56%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/_version.py                     1      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/assertion/__init__.py          84     25    70%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/assertion/rewrite.py          607    425    30%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/assertion/truncate.py          52     40    23%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/assertion/util.py             293    253    14%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/cacheprovider.py              303    150    50%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/capture.py                    556    213    62%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/compat.py                     178     58    67%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/config/__init__.py            801    340    58%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/config/argparsing.py          252     81    68%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/config/exceptions.py            4      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/config/findpaths.py           127     54    57%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/debugging.py                  225    158    30%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/deprecated.py                   9      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/doctest.py                    351    251    28%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/faulthandler.py                59     14    76%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/fixtures.py                   810    295    64%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/freeze_support.py              22     16    27%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/helpconfig.py                 132     91    31%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/hookspec.py                   112     24    79%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/junitxml.py                   373    275    26%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/logging.py                    397    142    64%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/main.py                       461    194    58%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/mark/__init__.py              139     70    50%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/mark/expression.py            123     73    41%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/mark/structures.py            240    133    45%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/monkeypatch.py                169    102    40%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/nodes.py                      275    103    63%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/nose.py                        21     11    48%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/outcomes.py                    88     45    49%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/pastebin.py                    70     47    33%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/pathlib.py                    322    204    37%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/python.py                     842    537    36%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/python_api.py                 237    162    32%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/recwarn.py                    126     79    37%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/reports.py                    278    162    42%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/runner.py                     300     93    69%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/setuponly.py                   56     29    48%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/setupplan.py                   24      5    79%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/skipping.py                   173     95    45%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/stepwise.py                    70     33    53%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/store.py                       34      5    85%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/terminal.py                   848    385    55%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/timing.py                       4      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/tmpdir.py                      92     43    53%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/unittest.py                   229     96    58%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/warning_types.py               46      2    96%
+/home/ezhou/.local/lib/python3.6/site-packages/_pytest/warnings.py                    63      8    87%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/__init__.py                       26      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_compat.py                        82     36    56%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_config.py                         9      4    56%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_funcs.py                         90     65    28%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_make.py                         833    304    64%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_next_gen.py                      30     22    27%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/_version_info.py                  36     10    72%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/converters.py                     28     19    32%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/exceptions.py                     18      4    78%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/filters.py                        15      9    40%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/setters.py                        27     18    33%
+/home/ezhou/.local/lib/python3.6/site-packages/attr/validators.py                    116     55    53%
+/home/ezhou/.local/lib/python3.6/site-packages/importlib_metadata/__init__.py        231     95    59%
+/home/ezhou/.local/lib/python3.6/site-packages/importlib_metadata/_compat.py          30      3    90%
+/home/ezhou/.local/lib/python3.6/site-packages/iniconfig.py                          122     99    19%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/__init__.py                      8      2    75%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/_tracing.py                     41     17    59%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/_version.py                      1      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/callers.py                     122     68    44%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/hooks.py                       175     45    74%
+/home/ezhou/.local/lib/python3.6/site-packages/pluggy/manager.py                     195     88    55%
+/home/ezhou/.local/lib/python3.6/site-packages/py/__init__.py                         14      6    57%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_error.py                           52     35    33%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_path/__init__.py                    0      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_path/common.py                    278    182    35%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_path/local.py                     693    532    23%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_vendored_packages/__init__.py       0      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_vendored_packages/apipkg.py       148     55    63%
+/home/ezhou/.local/lib/python3.6/site-packages/py/_version.py                          1      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/pytest/__init__.py                     48      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/pytest/__main__.py                      3      0   100%
+/home/ezhou/.local/lib/python3.6/site-packages/pytest/collect.py                      21      5    76%
+/home/ezhou/.local/lib/python3.6/site-packages/zipp.py                               117     67    43%
+calc.py                                                                               10      0   100%
+test_calc.py                                                                          23      1    96%
+------------------------------------------------------------------------------------------------------
+TOTAL                                                                              15804   8119    49%
+[0;32m[0m[0;32mezhou[0;36m @ [0;36mezhou-X570-UD ~/git/software_lab/tutorial8[0;32m
+[0;32m$[0m[0;32m [0mexit
+exit
+
+Script done on 2020-10-27 17:37:14-0500
